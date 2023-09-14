@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = Kpritz
+title = Test
 
 # (str) Package name
-package.name = Kpritz
+package.name = Test
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = fr.tshirtman.kpritz
+package.domain = test.com
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -25,14 +25,14 @@ source.include_exts = py,png,jpg,kv,atlas
 #source.exclude_patterns = license,images/*/*.jpg
 
 # (str) Application versioning (method 1)
-version.regex = __version__ = '(.*)'
-version.filename = %(source.dir)s/main.py
+#version.regex = __version__ = '(.*)'
+#version.filename = %(source.dir)s/main.py
 
 # (str) Application versioning (method 2)
 # version = 1.2.0
 
 # (list) Application requirements
-requirements = kivy
+requirements = python3, kivy
 
 # (str) Presplash of the application
 #presplash.filename = %(source.dir)s/data/presplash.png
@@ -41,7 +41,7 @@ requirements = kivy
 #icon.filename = %(source.dir)s/data/icon.png
 
 # (str) Supported orientation (one of landscape, portrait or all)
-orientation = all
+orientation = vertical
 
 # (bool) Indicate if the application should be fullscreen or not
 fullscreen = 1
